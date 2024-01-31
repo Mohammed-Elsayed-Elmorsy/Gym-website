@@ -1,0 +1,7 @@
+export { default as Email } from './Email/Email'
+export { default as Plans } from './Plans/Plans'
+export { default as Footer } from './Footer/Footer'
+export { default as Programs } from './Programs/Programs'
+export { default as Hero } from './Hero/Hero'
+export { default as Testmonials } from './Testmonials/Testmonials'
+export { default as WhyUs } from './Why/WhyUs'

@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.logo{
+    width: 170px;
+    height:75px;
+    padding-top: 20px;
+}
+.logo img{
+    width: 100%;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+} 
+
+header ul li a{
+    padding: 8px 10px;
+    color: white;
+}
+header ul li a:hover{
+    color: rgba(255, 153, 0, 0.966);
+}
+
+@media (max-width:768px){
+    header ul{
+        display: none;
+    }
+}

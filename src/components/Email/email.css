@@ -1,0 +1,46 @@
+.email{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+@media(max-width:768px){
+    .email{
+        flex-direction: column;
+    }
+    
+}
+.email h2{
+    flex: 1;
+    color: white;
+}
+.email form{
+    flex: 1;
+    position: relative;
+}
+
+input{
+    padding: 27px;
+    border: 0;
+    background-color: rgb(107, 107, 107);
+    width: 100%;outline: 0;
+    color: white;
+    font-size: 19px;
+}
+::placeholder{
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+}
+form button{
+    position: absolute;right: 18px;
+    top: 18px;
+    bottom: 0;
+    width: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 0;
+    height: 40px;
+    padding: 7px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(0, 162, 255),rgb(0, 195, 255));
+}
